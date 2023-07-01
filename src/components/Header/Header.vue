@@ -10,8 +10,8 @@ const props = defineProps<{
     <div class="col-lg-10 col-12">
       <div class="row justify-content-between align-items-center">
         <p class="header__title col-sm-6 col-6">Shopware Listning</p>
-        <div class="col-sm-6 col-6">
-          <button type="button" class="header__sorting-button btn btn-outline-secondary" @click="props.changeSortOrder">
+        <div class="col-sm-6 col-6 d-flex justify-content-end">
+          <button type="button" class="header__sorting-button btn btn-outline-secondary d-flex justify-content-between align-items-center" @click="props.changeSortOrder">
             <span class="header__button-text">{{ sortOrderText }}</span>
             <Arrow class="header__button-icon" />
           </button>
