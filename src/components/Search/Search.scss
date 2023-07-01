@@ -1,0 +1,28 @@
+.search {
+	height: 200px;
+
+	&__input-group {
+		position: relative;
+	}
+
+	&__input {
+		width: 100%;
+		position: relative;
+		outline: unset;
+		padding: 6px 12px;
+		border-radius: 6px;
+		border: 1px solid #6c757d;
+	}
+
+	&__input-icon {
+		position: absolute;
+		top: 50%;
+		right: 12px;
+		transform: translateY(-50%) rotate(270deg);
+		transition: all 0.15s ease-in-out;
+
+		path {
+			transition: all 0.15s ease-in-out;
+		}
+	}
+}
